@@ -13,5 +13,6 @@ Application is divided in layers
 * API  handles application and exposes access points
 
 There are unit tests written for Logic.
-
+I hosted database in mssqllocaldb
+It should be able to create and seed it automatically on startup by DbInitializer.cs and CreateDbIfNotExists() method in Program.cs
 
