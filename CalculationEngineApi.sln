@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculationEngine.Logic", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculationEngine.DAL", "CalculationEngine.DAL\CalculationEngine.DAL.csproj", "{8FE95137-82A4-41CD-A1DA-4B5D98E2DC15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculationEngine.Logic.UnitTests", "CalculationEngine.Logic.UnitTests\CalculationEngine.Logic.UnitTests.csproj", "{FAA6BFB6-5DA4-4AB1-9729-95C3628F344B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculationEngine.Logic.UnitTests", "CalculationEngine.Logic.UnitTests\CalculationEngine.Logic.UnitTests.csproj", "{FAA6BFB6-5DA4-4AB1-9729-95C3628F344B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31D06688-C9C9-471F-816C-5C9BF3850CBD}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
