@@ -7,10 +7,10 @@ For the sake of simplicity the solution
 * unit count 1-50 is hardcoded and not configurable
 
 Application is divided in layers
-*Core holds models and interfaces
-*Data access layer implements access to database with repository ish pattern
-*Logic uses DAL and parameters to do calculations
-*API  handles application and exposes access points
+* Core holds models and interfaces
+* Data access layer implements access to database with repository ish pattern
+* Logic uses DAL and parameters to do calculations
+* API  handles application and exposes access points
 
 There are unit tests written for Logic.
 
